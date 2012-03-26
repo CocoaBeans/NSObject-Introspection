@@ -32,7 +32,7 @@ PointerReadFailedHandler(int signum)
 }
 
 BOOL 
-MIIsPointerAnObject(const void *testPointer, 
+KRIsPointerAnObject(const void *testPointer, 
 					BOOL *allocatedLargeEnough)
 {
     *allocatedLargeEnough = NO;
