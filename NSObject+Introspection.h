@@ -19,7 +19,7 @@ void
 PointerReadFailedHandler(int signum);
 
 BOOL 
-KRIsPointerAnObject(const void *testPointer, 
+MIIsPointerAnObject(const void *testPointer, 
 					BOOL *allocatedLargeEnough);
 
 @interface NSObject (Introspection)
